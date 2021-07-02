@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#wrapper {
+  background: url(../images/background.jpg) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#content {
+  display: inline-block;
+  height: 100%;
+  margin: 0;
+  vertical-align: top;
+  width: 100%;
+}
+
+#board {
+  background: url(../images/board.png) no-repeat;
+  background-size: 100% 100%;
+  border: 1px solid black;
+  display: block;
+  height: 80%;
+  min-height: 200px;
+  min-width: 200px;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+
+
